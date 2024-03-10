@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html class="belongs to pradeep do-not-copy">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rahul Suthar</title>
+  <link rel="icon"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE2ElEQVR4nO2dW6hVRRiAPy+kXdQUuxiVEFGBFEWF0YtdqB66QVJZD0WFpzAoEqFIiyQiKsJ6sDxET1EQEVJEpSWJKEQplfRQp5NEZUUXUux0OVo7BuaQ5zSz1l7zz5o1e6//g3nZHGbOWh+zZq2Zf/6B7pgOXAkM9Gi5HrgcWAScDhxKDzML+BTo9FH5G9gFvAU8ClzSS5JWZHADOwnKH8Am4E5gDhmzLoOb1Ulc/gRetj0nOwYzuEGdBsvHwLXAJDIW8hOwvYfKEPAdsFcg5gPgfDIVYn7rVY4EFgK3AGuAncA/FV4GnrEvOo3Rb0JcHAPcBLxjb3qZmN3ApTREG4QczInAauCXLnrLA02MLW0TMsZMYGUXYt6wf5uMtgoZYzbwdMmjbAcwl0S0XcgYFwBfFkgxsxnzSIAKGf+G9nqBlKEUPUWFjMcM4qsKXpW32cnY2lAhbgYKxpVXgMnUhArxcyOw3yPlPmpChRSz1CNkv50RiI4KKecJj5QvgBlERoWUM9kudrmkGFlRUSHdcTTwg0PIX8ApRESFdM9Vnl6ynoiokGqs90iJtpaiQqpxkl0CnijkVSKhQqqzxiHkgJUlRoVU53hg1CHlKSKgQsJ40ROLMBUhKiSMhZ7B/SKEqJBwhh1C1iJEhYTzuEPItwhRIeGc53lszRfUqUIETAH2OYRcJ6lUe4iMzQ4hT0oqVCEyHnMIeVdSoQqRcbNDyGeSClWIjIsdQn6TVKhCZJzqedMyAXhBqBB5LJdLSPBEowqRMcMj5OTQClWIjMM9QoKXdVWIjMM8Qk4LrVCFyJgXe/pEhcg4xyHDxAUfElqhCokfifKjpEIVIuMeh5BPJBWqEBkvOYSY34JRITKGHEKWSypUIeEc69nYY7ISBaNCZJt6JsoYlUbEq5Bw3nQI2YAQFRLGUZ6Q0mUIUSFh3O/5IDRRjSJUSHVMdOI3DiEbiYAKqc6tnvmrq4mACqmGyd34tUPGVzYsSIwKqcZKT++4i0iokO4xaxy/O2SYDKjTiIQK6X4gf9/TO0ze4GiokO542CNja+wkZyqknGs8c1YjsbdEG1RI+YrgiKd33E0NqBA/ZxWkANxQV0YgFeLmTOBnj4zPJZGJZaiQ/3MZsMcjwyRrXkCNqJDxLLd7zl0yRmxuxlpRIf8ll3nNI6JjPwhNpHvttF3IJOAGu8fcJ2NfKhltF3IusKVAxNiu2rNT/lNtFLLIpoMtS9K/zeaNT0pbhMwFbgc+LJHQsYP6I5JwUAn9KmSK/bAzX9NvF2QXnViGmz5HJLWQ4+wzOVa5ELgCWALcCzwHvFfwHVE0cK/K4fCwVEKm2nOfOpmVUSsxSV73nITclsHNP7jssRlFTyAzUglZm4GEA/bovKWpzwTJUchgQxK+t4/KO5p4hW2jkL32hLZh+93wgj2qaEkdi0f9LmSwhnZ6HhWSGSokM1RIZqiQzFAhmaFCMkOFZIYKyQwVkhkqJDNUSGaokMxQIZmhQloq5HlHO8/W0E7Pk0KICdf8yNHO6sjt9AV1CzHxUQ95VvsWR2ynr4WYwOPtEcoO4NeCOKgjmr74HGkq+ODBpi88V9Y1IGNrzI32/caKxDI2AXOavuicMQFjOxOI2GWjz8UHL7aB6TZgeaCGYjbdn9H0BZIJ/wIM11zEyJvjmQAAAABJRU5ErkJggg==">
+  <meta name="viewport" content="width=760">
+  <style>
+    @import url(style.css);
+
+    body {
+      font-family: "PT Sans", sans-serif;
+      background: #fcfcfa;
+      color: #333;
+      font-family: "PT Serif", serif;
+      font-size: 16px;
+      line-height: 1.2em;
+      margin: 1em auto 4em auto;
+      max-width: 720px;
+      padding: 0 18px;
+      position: relative;
+    }
+
+    .preview {
+      border: solid 1px #ccc;
+      height: 82px;
+      margin-bottom: .5em;
+      width: 718px;
+    }
+
+    .date {
+      color: #636363;
+      font-family: "PT Sans", sans-serif;
+      font-size: smaller;
+      margin: 2px 0 0 480px;
+      position: absolute;
+      text-align: right;
+      width: 240px;
+    }
+
+    .nytimes:before,
+    .medium:before {
+      content: "";
+      display: inline-block;
+      height: 16px;
+      position: relative;
+      top: 2px;
+      width: 16px;
+    }
+
+    .nytimes:before {
+      background-image: url(nytimes.png);
+      background-size: contain;
+    }
+
+    .medium:before {
+      background-image: url(medium.png);
+      background-size: 24px 24px;
+      background-position: -4px -4px;
+      left: -2px;
+    }
+
+    .verified-badge {
+      position: absolute;
+      margin: 0 0 0 6px;
+      margin-top: 6px;
+      content: var(--veried-badge);
+      height: 12px;
+      width: 12px;
+    }
+
+    .social-lable {
+      font-weight: bold;
+      color: #636363;
+      width: 140px;
+
+    }
+
+    .social-link {}
+
+    .social-wrapper {
+      display: flex;
+      line-height: 24px;
+
+    }
+
+    .experience-ul {
+      list-style: none;
+    }
+
+    .experience-ul>li {
+      margin-top: 10px;
+    }
+
+    .experience-ul li::before {
+      color: #636363;
+      content: "•";
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em
+    }
+
+    .hr {
+      width: 718px;
+      margin-left: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header><br></header>
+  <h1>Rahul Suthar</h1>
+  <h2><a name="projects" href="#projects">#</a>Projects</h2>
+  <p>Most of my projects are here at my <a href="https://github.com/sutharrahul">GitHub profile</a>.
+
+  <p><a href="https://cinema-review-seven.vercel.app/">Cinema-Review<img class="preview"
+        src="image/cinema-review.JPG"></a><br>
+
+  <p><a href="https://find-pokemon-omega.vercel.app/">Find-Pokemon<img
+        class="preview" src="image/pokemon.JPG"></a><br>
+
+  <p><a href="https://react-todo-app-xi.vercel.app/">Todo-App<img
+        class="preview" src="image/todo.JPG"></a><br>
+
+  <p><a href="https://rock-paper-scissor-dusky.vercel.app/">Rock-Paper-Scissor<img
+        class="preview" src="image/game-start.png"></a><br>
+
+  <p><a href="https://meal-point.vercel.app/">Meal-DB<img class="preview"
+        src="image/mealDb.png"></a><br>
+
+
+  <h2><a name="experience" href="#experience">#</a>Learning and Works</h2>
+    <li>
+       Developed a modern website utilizing HTML, CSS, and JavaScript, ensuring cross-browser compatibility and responsive design for seamless user experience across devices.
+    <li>
+        Leveraged the power of React.js to build dynamic and interactive user interfaces, enhancing usability and engagement through component-based architecture.
+    </li>
+    <li>
+        Implemented Tailwind CSS to streamline styling and achieve consistent design patterns, optimizing development workflow and enabling rapid prototyping of UI elements.
+    </li>
+    <li>
+        Utilized Zustand store for efficient state management, ensuring data consistency and seamless communication between components, resulting in improved performance and maintainability.
+    </li>
+    <li>
+        Integrated React Router library to facilitate smooth client-side navigation and enable the creation of single-page applications (SPAs) with multiple views, enhancing user flow and navigation experience.
+    </li>
+    <li>
+        Leveraged Axios library for seamless integration with external APIs, enabling efficient data fetching and management, and ensuring real-time updates of content across the website.
+    </li>
+    <li>
+        Enhanced UI functionality and aesthetics by leveraging DaisyUI components, adding rich and customizable UI elements to the website, and improving user interaction and engagement.
+    </li>
+    <li>
+      Utilized Vite bundler for fast development and optimized builds, reducing build times and enhancing developer productivity, resulting in a smoother and more efficient development process.
+    </li>
+  </ul>
+
+  <h2><a name="art-and-hobby" href="#art-and-hobby">#</a>Art &amp; Hobby</h2>
+
+  <p><a href="#art-and-hobby">Photography</a><br>
+    Passionate photographer with a keen eye for composition and lighting, dedicated to capturing moments that tell compelling stories through images.
+
+  <p><a href="#art-and-hobby">Hiking</a><br>
+    Enthusiastic hiker with a love for exploring nature's wonders, seeking adventure and serenity amidst breathtaking landscapes.
+
+    <footer>
+    <aside>
+      <div class="social-wrapper">
+        <span class="social-lable">Github: </span>
+        <a class="social-link" href="https://github.com/sutharrahul" target="_blank">@sutharrahul<img
+            class="verified-badge" /></a>
+      </div>
+      <div class="social-wrapper">
+        <span class="social-lable">Linkedin: </span>
+        <a class="social-link" href="https://www.linkedin.com/in/suthar-rahul/" target="_blank">@sutharrahul<img
+            class="verified-badge" /></a>
+      </div>
+    </aside>
+    <br />
+    <hr class="hr" />
+    <aside>
+      <a href="#">Rahul Suthar </a> © 2024 All Rights Reserved.
+
+    </aside>
+  </footer>
+
+</body>
+
+</html>
